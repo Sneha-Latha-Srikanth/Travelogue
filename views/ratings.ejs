@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Ratings</title>
+</head>
+    <body>
+        <form action="/update" method="POST">
+            <div>
+            <label>Select Place</label>
+            <select name="place">
+                <option value="">Please select</option>
+                <option value="marina">Marina Beach</option>
+                <option value="valluvar kottam">Valluvar Kottam</option>
+              </select>
+            </div>
+            Enter Your ratings:<input type="number" name="rate" step="0.1" min="0" max="5"/>
+            <input type="submit" name="submit" value="submit"/>
+        </form>
+    </body>
+</html>
+

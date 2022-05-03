@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Check Images</title>
+</head>
+<body>
+    <form action="/checkimage" method="POST">
+        <div>
+            <label>Select Place</label>
+            <select name="place">
+                <option value="">Please select</option>
+                <option value="marina">Marina Beach</option>
+                <option value="valluvar kottam">Valluvar Kottam</option>
+              </select>
+            </div>
+</br>
+</br>
+        Image : <input type="file" name="images" accept="image/png,image/jpeg,image/jpg" required>
+</br>
+</br>
+        <input type="submit">
+    </form>
+</body>
+</html>
