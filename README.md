@@ -15,3 +15,5 @@ Implementation screenshots of the page are attached below
 
 This is the Travelogue's main page from this page the user is directed to different pages based on the location.
 The output of the text to speech api is a audio file which will be downloaded in our device, which can be played to listen to the text modules.
+
+This page is not currently deployed in the cloud due to expiry of the credentials.
